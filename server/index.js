@@ -29,7 +29,7 @@ const upload = multer({
 });
 
 const configuration = new Configuration({
-	apiKey: "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",
+	apiKey: "API_KEY",
 });
 
 const openai = new OpenAIApi(configuration);
